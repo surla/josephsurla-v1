@@ -15,4 +15,9 @@
 @tailwind utilities;
 /* Stop purging. */
 
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&display=swap");
+
+html {
+  font-family: "Alegreya", sans-serif;
+}
 /* Your own custom utilities */
