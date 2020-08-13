@@ -1,10 +1,11 @@
 import Nav from "../components/nav";
+import Projects from "../components/projects";
 
 export default function IndexPage() {
   return (
     <div>
       <Nav />
-      <div className="container mx-auton pl-10 py-20">
+      <div className="container mx-auto w-4/5 py-20">
         <div className="text-left">
           <p className=" text-gray-800 sm:text-lg lg:text-4xl">
             Hello, I'm Joseph Surla.
@@ -14,6 +15,8 @@ export default function IndexPage() {
           </p>
         </div>
       </div>
+
+      <Projects />
 
       {/*social media links*/}
       {/* <ul>
