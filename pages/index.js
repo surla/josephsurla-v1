@@ -3,20 +3,19 @@ import Nav from "../components/nav";
 export default function IndexPage() {
   return (
     <div>
-      <Nav />
-      <div className="container mx-auto py-20">
-        <h1 className="text-3xl text-center text-accent-1"></h1>
-        <div className="">
-          <p className="text-5xl font-bold">👋Hi, I'm Joseph Surla</p>
-          <p className="text-3xl">
-            I enjoy building things with code. Currently living in beautiful
-            Japan. 🇯🇵
+      <div className="container mx-auton pl-10 py-20">
+        <div className="text-left">
+          <p className=" text-gray-900 sm:text-lg lg:text-4xl">
+            Hello, I'm Joseph Surla.
+          </p>
+          <p className="text-gray-600 sm:text-lg lg:text-2xl ">
+            A software developer who currently lives in Japan. 🇯🇵
           </p>
         </div>
       </div>
 
       {/*social media links*/}
-      <ul>
+      {/* <ul>
         <li>
           <a href="https://github.com/surla">Github</a>
         </li>
@@ -26,7 +25,7 @@ export default function IndexPage() {
         <li>
           <a href="https://codesandbox.io/u/surla/">CodeSandbox</a>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

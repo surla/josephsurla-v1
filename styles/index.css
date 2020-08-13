@@ -1,6 +1,12 @@
 @tailwind base;
 
 /* Write your own custom base styles here */
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+html {
+  font-family: "Space Mono", sans-serif;
+  background-color: #f0ead6;
+}
 
 /* Start purging... */
 @tailwind components;
@@ -15,9 +21,4 @@
 @tailwind utilities;
 /* Stop purging. */
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
-
-html {
-  font-family: "Inter", sans-serif;
-}
 /* Your own custom utilities */

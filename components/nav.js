@@ -8,23 +8,21 @@ const links = [
 
 export default function Nav() {
   return (
-    <nav>
-      <ul className="flex justify-between items-center p-8">
-        <li>
-          <Link href="/">
-            <a className="text-blue-500 no-underline">Home</a>
-          </Link>
-        </li>
-        <ul className="flex justify-between items-center space-x-4">
-          {links.map(({ href, label }) => (
-            <li key={`${href}${label}`}>
-              <a href={href} className="btn-blue no-underline">
-                {label}
-              </a>
-            </li>
-          ))}
+    <header className="flex justify-between">
+      <h4 className="px-5 py-5 text-3xl font-bold ">Joseph Surla</h4>
+      <nav className="text-lg ">
+        <ul className="flex justify-between items-center p-8">
+          <ul className="flex justify-between items-center space-x-4 uppercase">
+            {links.map(({ href, label }) => (
+              <li key={`${href}${label}`}>
+                <a href={href} className="no-underline">
+                  {label}
+                </a>
+              </li>
+            ))}
+          </ul>
         </ul>
-      </ul>
-    </nav>
+      </nav>
+    </header>
   );
 }
