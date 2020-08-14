@@ -1,4 +1,5 @@
 import Nav from "../components/nav";
+import About from "../components/about";
 import Projects from "../components/projects";
 import Social from "../components/social";
 import Footer from "../components/footer";
@@ -9,7 +10,7 @@ export default function IndexPage() {
     <div className="bg-gray-100">
       <div className="container mx-auto w-4/5 py-20">
         <div className="text-left">
-          <p className=" text-gray-800 font-bold tracking-wide sm:text-xl md:text-3xl lg:text-5xl">
+          <p className=" text-gray-900 font-bold tracking-wide sm:text-xl md:text-3xl lg:text-5xl">
             Hello, I'm Joseph Surla.
           </p>
           <p className="text-gray-700 sm:text-xl lg:text-2xl">
@@ -19,6 +20,7 @@ export default function IndexPage() {
         </div>
       </div>
 
+      <About />
       <Projects />
       <Social />
       <Contact />
