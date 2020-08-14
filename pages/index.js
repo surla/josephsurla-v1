@@ -10,13 +10,15 @@ export default function IndexPage() {
     <div className="bg-gray-100">
       <div className="container mx-auto w-4/5 py-20">
         <div className="text-left">
-          <p className=" text-gray-900 font-bold tracking-wide sm:text-xl md:text-3xl lg:text-5xl">
+          <p className=" text-gray-900 font-bold tracking-wide text-lg md:text-3xl lg:text-5xl">
             Hello, I'm Joseph Surla.
           </p>
-          <p className="text-gray-700 sm:text-xl lg:text-2xl">
+          <p className="text-gray-700 text-base lg:text-2xl">
             A software developer who lives in Japan. 🇯🇵
           </p>
-          <p className="text-gray-600">I love building things with code.</p>
+          <p className="text-gray-600 text-sm lg:text-base">
+            I love building things with code.
+          </p>
         </div>
       </div>
 

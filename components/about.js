@@ -5,7 +5,7 @@ export default function About() {
         A little about me
       </h3>
       &mdash;
-      <p className="text-gray-800 text-sm md:text-base lg:text-lg text-justify tracking-tighter leading-7">
+      <p className="text-gray-800 text-base lg:text-lg text-justify tracking-tighter leading-7">
         My passion for programming started when I worked as retail employee at
         Apple. In my role as Creative Pro, I helped others learn how to code. My
         job was to teach and inspire the next generation of creatives and
@@ -14,12 +14,12 @@ export default function About() {
         positively impacted peoples lives through technology, I wanted do the
         same.
       </p>
-      <p className="pt-3 text-gray-800 text-sm md:text-base lg:text-lg text-justify tracking-tighter leading-7">
+      <p className="pt-3 text-gray-800 text-base lg:text-lg text-justify tracking-tighter leading-7">
         I build websites using JavaScript. Lately, I've been with working
         Next.js and Tailwind CSS.{" "}
       </p>
       <div className="pt-3">
-        <p className="text-md text-gray-800 text-xs lg:text-sm">
+        <p className="bg-orange-100 p-3 text-md text-gray-800 text-xs lg:text-sm">
           Currently... <br></br>- 📖 I'm reading{" "}
           <span className="underline hover:no-underline hover:text-orange-500">
             <a href="https://goodreads.com/surla">'Grit' by Angela Duckworth</a>

@@ -27,7 +27,7 @@ export default function Projects() {
         Things I've worked on
       </h3>
       &mdash;
-      <div className="flex flex-col content-between text-xs lg:text-base">
+      <div className="flex flex-col content-between text-sm lg:text-base">
         {projects.map(({ title, url, description, tags }) => (
           <a href={url}>
             <div className="p-4 m-1 border-solid border-2 border-gray-300 rounded-md hover:border-blue-300 hover:bg-blue-200">
