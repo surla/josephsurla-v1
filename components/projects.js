@@ -23,10 +23,10 @@ const projects = [
 export default function Projects() {
   return (
     <div className="container mx-auto bg-green-100 w-10/12 rounded-md p-4">
-      <h3 className="text-xs lg:text-base text-gray-700 leading-3 tracking-wide">
-        Things I've worked on
+      <h3 className="text-gray-900 md:text-lg leading-3 tracking-widest font-bold">
+        👨‍💻 Things I've worked on
       </h3>
-      &mdash;
+      <div className="tracking-tight text-gray-700">&mdash;</div>
       <div className="flex flex-col content-between text-sm lg:text-base">
         {projects.map(({ title, url, description, tags }) => (
           <a href={url}>
