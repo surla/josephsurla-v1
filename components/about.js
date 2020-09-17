@@ -10,7 +10,7 @@ export default function About() {
           My passion for programming started when I worked as a retail employee
           at Apple. In my role as Creative Pro, I helped others learn how to
           code. My job was to teach and inspire the next generation of creatives
-          and software engineers. By helping others reach there goal to become
+          and software engineers. By helping others reach their goal to become
           developers, I realized I wanted to do the same.
         </p>
         <p className="pt-3">
@@ -19,7 +19,7 @@ export default function About() {
         </p>
       </div>
       <div className="rounded-md bg-orange-100 mt-3">
-        <p className="p-2 text-sm text-gray-800 text-xs lg:text-sm">
+        <p className="p-2 text-gray-800 text-xs lg:text-sm">
           Currently... <br></br>- 📖 I'm reading{" "}
           <span className="underline hover:no-underline hover:text-orange-500">
             <a href="https://goodreads.com/surla">'Grit' by Angela Duckworth</a>

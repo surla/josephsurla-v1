@@ -13,10 +13,10 @@ export default function IndexPage() {
           <p className=" text-gray-900 font-bold tracking-wide text-lg md:text-4xl lg:text-5xl">
             Hello, I'm Joseph Surla.
           </p>
-          <p className="text-gray-700 text-sm lg:text-2xl">
+          <p className="text-gray-700 text-sm md:text-xl lg:text-2xl">
             A software developer who lives in Japan. 🇯🇵
           </p>
-          <p className="text-gray-600 text-xs lg:text-base">
+          <p className="text-gray-600 text-xs md:text-lg lg:text-base">
             I love building things with code.
           </p>
         </div>
