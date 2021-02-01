@@ -1,12 +1,5 @@
 const projects = [
   {
-    title: "Codelabs",
-    url: "https://github.com/surla/",
-    description:
-      "A collection of small projects. The focus of this project is to create as many coding projects.",
-    tags: ["Javascript", "Next.js", "Tailwind CSS"],
-  },
-  {
     title: "Quote List",
     url: "https://github.com/surla/quote-list",
     description: "Web application that creates and saves your favorite quotes.",
