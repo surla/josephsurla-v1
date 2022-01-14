@@ -8,15 +8,15 @@ import Contact from "../components/contact";
 export default function IndexPage() {
   return (
     <div className="bg-gray-100">
-      <div className="container mx-auto w-4/5 py-20">
+      <div className="container w-4/5 py-20 mx-auto">
         <div className="text-left">
-          <p className=" text-gray-900 font-bold tracking-wide text-lg md:text-4xl lg:text-5xl">
-            Hello, I'm Joseph Surla.
+          <p className="text-lg font-bold tracking-wide text-gray-900 md:text-4xl lg:text-5xl">
+            👋 Hello, I'm Joseph Surla.
           </p>
-          <p className="text-gray-700 text-sm md:text-xl lg:text-2xl">
-            A software developer who lives in Japan. 🇯🇵
+          <p className="text-sm text-gray-700 md:text-xl lg:text-2xl">
+            A developer who lives in San Diego, CA.
           </p>
-          <p className="text-gray-600 text-xs md:text-lg lg:text-base">
+          <p className="text-xs text-gray-600 md:text-lg lg:text-base">
             I love building things with code.
           </p>
         </div>
