@@ -7,14 +7,6 @@ export default function About() {
       <div className="tracking-tight text-gray-700">&mdash;</div>
       <div className="text-sm leading-7 tracking-tighter text-justify text-gray-800 md:text-base lg:text-lg">
         <p>
-          My passion for programming started when I worked as a retail employee
-          at Apple. In my role as Creative Pro, I helped others learn how to
-          code. My job was to teach and inspire the next generation of creatives
-          and software engineers. By helping others reach their goal to become
-          developers, I realized I wanted to do the same.
-        </p>
-        <br />
-        <p>
           I am a web developer looking for a new role in an exciting company. I
           focus on creative projects using Next.js, modern CSS practices and
           writing clean Javascript. When writing JavaScript code, I mostly use

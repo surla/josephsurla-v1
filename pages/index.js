@@ -8,8 +8,7 @@ import Contact from "../components/contact";
 export default function IndexPage() {
   return (
     <div className="bg-gray-100">
-      <h1>Coming soon...</h1>
-      {/* <div className="container w-4/5 py-20 mx-auto">
+      <div className="container w-4/5 py-20 mx-auto">
         <div className="text-left">
           <p className="text-lg font-bold tracking-wide text-gray-900 md:text-4xl lg:text-5xl">
             👋 Hello, I'm Joseph Surla.
@@ -38,7 +37,8 @@ export default function IndexPage() {
         <li>
           <a href="https://codesandbox.io/u/surla/">CodeSandbox</a>
         </li>
-      </ul> */}
+      </ul>
+          */}
     </div>
   );
 }
